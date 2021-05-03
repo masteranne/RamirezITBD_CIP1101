@@ -1,0 +1,225 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+    <!--RAMIREZ, ANNE NICOLE-->
+    <!--DATE: -->
+    <link rel="stylesheet" type="text/css" href="RAMIREZ_IMAGES_ITBD/ramirez_design_itbd.css">
+	<h1>Diner Dash</h1> 
+    <div class="one">
+    	<h2>Customer Information</h2>
+    	<table class="customer" >
+    		<form method="post" action="greetings.html"> 
+    			<tbody>
+    			<tr>
+    				<td class="head"><label for="name">Name:</label> </td>
+    				<td class="head"><input type="text" name="name" size="50" placeholder="Type your full name here" maxlength="50" autofocus required ></td>
+    			</tr>
+    			<tr>
+    				<td class="head"><label for="address">Address:</label> </td>
+    				<td class="head"><input type="text" name="address" size="50" placeholder="Type your complete address here" maxlength="50"  required ></td>
+    			</tr>
+    			<tr>
+    				<td class="head"><label for="email">E-mail:</label> </td>
+    				<td class="head"><input type="email" name="email" size="50" placeholder="Type your E-mail here" required></td>
+    			</tr>
+    			<tr>
+    				<td class="head"><label for="number">Contact Number:</label> </td>
+    				<td class="head"><input type="number" name="number" placeholder="Type your contact number here" required ></td>
+    			</tr>
+    			<tr>
+    				<td colspan="2" class="head"><label for="description">Description of how to get to the place:</label><br><br>
+    				<textarea rows="5" cols="5" name="description" required></textarea></td>
+    			</tr>
+    		</tbody>
+    		</table>	
+    		</div><br><br>
+    	<div class="two" id="food">
+    		<h2>Foods</h2> <br>
+    		<div align="center">
+    			<p>click on the picture of the food you want to order: </p>
+    		<a href="#burger" class="pictures"><img src="RAMIREZ_IMAGES_ITBD/burger.gif" class="burger"></a>
+    		<a href="#fries" class="pictures"><img src="RAMIREZ_IMAGES_ITBD/fries.gif" class="burger"></a><br>
+    		<a href="#pasta" class="pictures"><img src="RAMIREZ_IMAGES_ITBD/pasta.gif" class="burger"></a>
+    		<a href="#drinks" class="pictures"><img src="RAMIREZ_IMAGES_ITBD/drinks.gif" class="burger"></a>
+    		</div> 		
+    </div><br><br>
+
+    <div class="two" id="burger">		
+    		<div align="center">
+    		<img src="RAMIREZ_IMAGES_ITBD/burger.gif" style="width: 300px;">
+    		</div>
+    		<table align="center">
+    			<tr><td> <b>Pick a bun: </b></td></tr>
+    			<tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/1.png" style="float: left; width: 155px;"> </td>
+    				<td>
+    					<label><b>Bun</b></label><br><br>
+    					<input type="radio" id="white" name="bun" value="whiteBun"><label for="white">White Bun</label>&emsp;<input type="radio" id="wheat" name="bun" value="wheatBun"><label for="wheat">Wheat Bun</label>
+    				</td>
+    			</tr>
+    			<tr><td> <b>Choose your Toppings: </b></td></tr>
+    			<tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/2.png" style="float: left; width: 155px;"> </td>
+    				<td>
+    					<input type="checkbox" id="cheese" name="extra" value="cheese"><label for="cheese">Cheese</label>
+    				</td>
+    			</tr>
+    		    <tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/3.png" style="float: left; width: 155px;"> </td>
+    				<td>
+    					<input type="checkbox" id="coleslaw" name="extra" value="coleslaw"><label for="coleslaw">Coleslaw</label>
+    				</td>
+    			</tr>
+    			<tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/4.png" style="float: left; width: 155px;"> </td>
+    				<td>
+    					<input type="checkbox" id="onion" name="extra" value="onion"><label for="onion">Onion</label>
+    				</td>
+    			</tr>
+    			<tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/5.png" style="float: left; width: 155px;"> </td>
+    				<td>
+    					<input type="checkbox" id="tomato" name="extra" value="tomato"><label for="tomato">Tomato</label>
+    				</td>
+    			</tr>
+    			<tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/6.png" style="float: left; width: 155px;"> </td>
+    				<td>
+    					<input type="checkbox" id="cucumber" name="extra" value="cucumber"><label for="cucumber">Cucumber</label>
+    				</td>
+    			</tr>
+    			<tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/7.png" style="float: left; width: 155px;"> </td>
+    				<td>
+    					<label><b>Patty</b></label><br><br>
+    					<input type="radio" id="single" name="patty" value="single"><label for="single">Single</label>&emsp;<input type="radio" id="double" name="patty" value="double"><label for="wheat">Double</label>
+    				</td>
+    			</tr>
+    			<tr>
+    				<td><b>Quantity:</b> &emsp;<input type="number"name="quantity1" max="100" min="1" ></td>
+    			</tr>
+    		</table> <br>
+    		<div align="center">
+    		<a href="#food" class="add">Add more food </a> <br><br><br>
+    		<a href="#final" class="add">&emsp;Check-out &emsp;</a><br><br> 
+    	</div>
+    </div><br><br>
+
+
+
+    <div class="two" id="fries">		
+    		<div align="center">
+    		<img src="RAMIREZ_IMAGES_ITBD/fries.gif" style="width: 300px;">
+    		</div> 
+    		<table style="padding: 0 40px;" align="center">
+    			<tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/15.png" style="float: left; width: 165px;"> </td>
+                    <td>
+                        <label for="sizes"><b>Sizes</b></label><br>
+                        <select name="sizes" id="sizes" size="1">
+                            <option value="small">Small</option>
+                            <option value="meduim">Meduim</option>
+                            <option value="large">Large</option>
+                        </select>
+                    </td>
+    			</tr>
+    			<tr><td><b>Choose flavor:</b></td></tr>
+    			<tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/12.png" style="float: left; width: 155px;"><br><br><br><br><br><input type="radio" id="bbq" name="flavor" value="bbq"><label for="bbq">Barbecue</label></td>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/13.png" style="float: left; width: 155px;"><br><br><br><br><br><input type="radio" id="cheese1" name="flavor" value="cheese1"><label for="cheese1">Cheese</label></td>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/14.png" style="float: left; width: 155px;"><br><br><br><br><br><input type="radio" id="sour" name="flavor" value="sour"><label for="sour">Sour & cream</label></td>
+    			</tr>
+    		</table> <br>
+    		<b>Quantity:</b> &emsp;<input type="number"name="quantity1" max="100" min="1" > <br><br><br>
+    		<div align="center">
+    		<a href="#food" class="add">Add more food </a> <br><br><br>
+    		<a href="#final" class="add">&emsp;Check-out &emsp;</a> <br><br>
+    	</div>
+    </div><br><br>
+
+<div class="two" id="pasta">		
+    		<div align="center">
+    		<img src="RAMIREZ_IMAGES_ITBD/pasta.gif" style="width: 300px;">
+    		</div> 
+    		<table align="center">
+    			<tr><td><b>Choose Sauce:</b></td></tr>
+    			<tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/9.png" style="float: left; width: 155px;"><br><br><br><br><br><input type="radio" id="spaghetti" name="sauce" value="spaghetti"><label for="spaghetti">Spaghetti</label></td>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/10.png" style="float: left; width: 155px;"><br><br><br><br><br><input type="radio" id="pesto" name="sauce" value="pesto"><label for="pesto">Pesto</label></td>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/11.png" style="float: left; width: 155px;"><br><br><br><br><br><input type="radio" id="carbonara" name="sauce" value="carbonara"><label for="carbonara">Carbonara</label><br></td>
+    			</tr> 
+
+    			<tr><td rowspan="1" style="padding-top: 25px;"><b>Extras:</b></td></tr>
+    			<tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/2.png" style="float: left; width: 155px;"><br><br><br><br><br><input type="checkbox" id="cheese2" name="extra1" value="cheese2"><label for="cheese2">Cheese</label></td>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/16.png" style="float: left; width: 155px;"><br><br><br><br><br><input type="checkbox" id="sauce" name="extra1" value="sauce"><label for="sauce">Sauce</label></td>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/17.png" style="float: left; width: 155px;"><br><br><br><br><br><input type="checkbox" id="pasta" name="extra1" value="pasta"><label for="pasta">Pasta</label></td>
+    			</tr>
+    		</table> <br>
+    		<b>Quantity:</b> &emsp;<input type="number"name="quantity1" max="100" min="1" > <br><br><br>
+    		<div align="center">
+    		<a href="#food" class="add">Add more food </a> <br><br><br>
+    		<a href="#final" class="add">&emsp;Check-out &emsp;</a> <br><br>
+    	</div>
+    </div><br><br>
+
+    <div class="two" id="drinks">		
+    		<div align="center">
+    		<img src="RAMIREZ_IMAGES_ITBD/drinks.gif" style="width: 300px;">
+    		</div> 
+    		<table align="center">
+    			<tr><td><b>kind of drinks</b></td></tr>
+    			<tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/18.png" style="float: left; width: 155px;"><br><br><br><br><br><br><br><br><input type="radio" id="soda" name="drinks" value="soda"><label for="soda">Soda</label></td>
+
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/19.png" style="float: left; width: 155px;"><br><br><br><br><br><br><br><br><input type="radio" id="tea" name="drinks" value="tea"><label for="tea">Ice Tea</label></td>
+
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/20.png" style="float: left; width: 155px;"><br><br><br><br><br><br><br><br><input type="radio" id="mango" name="drinks" value="mango"><label for="mango">Mango Juice</label><br></td>
+
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/21.png" style="float: left; width: 155px;"><br><br><br><br><br><br><br><br><input type="radio" id="orange" name="drinks" value="orange"><label for="orange">Orange Juice</label><br></td>
+    			</tr> 
+    				<tr><td><br></td></tr>
+    			<tr>
+    				<td rowspan="1"><img src="RAMIREZ_IMAGES_ITBD/23.png" style="float: left; width: 140px;"> </td>
+                    <td>
+                        <label for="sizes"><b>Sizes</b></label><br>
+                        <select name="sizes" id="sizes" size="1">
+                            <option value="small">Small</option>
+                            <option value="meduim">Meduim</option>
+                            <option value="large">Large</option>
+                        </select>
+                    </td>
+    			</tr>
+    		</table> <br>
+    		<b>Quantity:</b> &emsp;<input type="number"name="quantity1" max="100" min="1" > <br><br><br>
+    		<div align="center">
+    		<a href="#food" class="add">Add more food </a> <br><br><br>
+    		<a href="#final" class="add">&emsp;Check-out &emsp;</a> <br><br>
+    	</div>
+    </div> <br><br>
+
+    <div class="two" id="final">
+    	<h2>Check-out</h2>
+    	<table>
+    		<tr>
+    	<td><img src="RAMIREZ_IMAGES_ITBD/24.png" style="float: left; width: 150px;"> </td>
+    	<td><input type="radio" id="delivery" name="mode" value="delivery" required><label for="delivery">Delivery</label> </td>
+    </tr>
+    <tr>
+    	<td><img src="RAMIREZ_IMAGES_ITBD/pick.png" style="float: left; width: 150px;"> </td>
+    	<td><input type="radio" id="pick" name="mode" value="pick" required><label for="pick">Pick-up</label> </td>
+    </tr>
+</table>
+	<input type="submit" name="btn1" value="Submit Order">
+	<input type="reset" name="btn1" value="Reset">
+    </div>
+
+</body>
+</html>

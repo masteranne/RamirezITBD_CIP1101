@@ -1,0 +1,104 @@
+ body {
+    	background-image: url('https://i.pinimg.com/originals/08/57/23/08572347d37a68f16a0c61df2f7ee19c.jpg');
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-attachment:fixed;
+    }
+    input[type=submit],input[type=reset]{
+    	width: 100%;
+    	background-color: #FEC3BD;
+    	color:black;
+    	padding:14px 250px;
+    	margin: 8px 0; 
+    	border:none;
+    	border-radius: 6px;
+    	cursor:pointer;
+    	font-family: verdana;
+    	font-size: 1.125em;
+        box-shadow: -3px -3px 7px #ffffffb2, 
+                  3px 3px 5px rgba(94, 104, 121, 0.945);
+    }
+    input[type=submit]:hover, a.add:hover,input[type=reset]:hover{
+        background: #E64542 ;
+        border-radius: 6px;
+        box-shadow: -3px -3px 7px #ffffffb2, 
+         3px 3px 5px rgba(94, 104, 121, 0.945);
+    }   
+    input[type=submit]:active,a.add:active,input[type=reset]:active{
+
+        background: #FEC3BD;
+        border-radius: 6px;
+        box-shadow: inset -3px -3px 7px #ffffffb0, 
+       inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+    }
+    .one,.two {
+    	width:50%;
+		background-color: #FFF2D7;
+		padding: 20px;
+		margin:0px auto;
+		font-size: 20px;
+		box-shadow: 8px 10px 20px #E64542 ;
+    }
+    h2 {
+    	background-color: #FEC3BD;
+    	padding:20px;
+    	text-align: center;
+    	box-shadow: 2px 2px 2px #E64542;
+    	border-radius: 20px;
+    }
+    h1{
+    	font-size: 40px;
+    	text-align: center;
+    	background-color:#FEC3BD; 
+  		border: solid 3px black;
+ 		border-radius: 5px;
+		padding: 20px 40px;
+  		margin: 20px 296px;
+  		box-shadow: 10px 5px 0px 0px  #E64542, 11px 7px 0px 2px #000000;
+    }
+    input[type=text],textarea,select,input[type=number],input[type=email]{
+    	padding: 12px 20px;
+    	margin: 8px 0; 
+    	display: 1px solid #ccc;
+    	border-radius: 4px;
+    	box-sizing: border-box;
+    	border: 2px solid #E64347;
+    }
+   
+    td.head,th.head{
+    	border-collapse: collapse;
+    	padding: 20px;
+    	margin: 10px auto; 
+    	
+    }
+    table.customer {
+    	border-collapse: collapse;
+    	margin: 5px auto; 
+    }
+    textarea {
+    	resize: none;
+    	width: 100%;
+    	border-radius: 4px;
+    }
+    .description{
+    	padding: 12px 20px;
+    	margin: 100px 0; 
+    }
+    .burger {
+    	width: 200px;
+    	margin: 0 auto;
+    }
+    a.add {
+    	text-decoration:none; 
+    	width: 100%;
+    	background-color: #FEC3BD;
+    	color:black;
+    	padding:14px 247px;
+    	border:none;
+    	font-family: verdana;
+    	font-size: 1.125em;
+        border-radius: 6px;
+         box-shadow: -3px -3px 7px #ffffffb2, 
+                  3px 3px 5px rgba(94, 104, 121, 0.945);
+    }
+   
